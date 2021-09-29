@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-28T10:54:03 IST" name="SampleSuite2" finished-at="2021-09-28T10:54:59 IST" duration-ms="55789">
+    <groups>
+    </groups>
+    <test started-at="2021-09-28T10:54:03 IST" name="SampleTest" finished-at="2021-09-28T10:54:27 IST" duration-ms="24100">
+      <class name="mavenseleniumproject.Recorder">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mavenseleniumproject.Recorder@1e04fa0a]" started-at="2021-09-28T10:54:03 IST" name="setup" finished-at="2021-09-28T10:54:09 IST" duration-ms="6036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:mavenseleniumproject.Recorder@1e04fa0a]" started-at="2021-09-28T10:54:09 IST" name="testParameterWithXML" finished-at="2021-09-28T10:54:27 IST" duration-ms="18016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- mavenseleniumproject.Recorder -->
+    </test> <!-- SampleTest -->
+    <test started-at="2021-09-28T10:54:27 IST" name="Sample2Test" finished-at="2021-09-28T10:54:59 IST" duration-ms="31648">
+      <class name="mavenseleniumproject.Recorder">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mavenseleniumproject.Recorder@27462a88]" started-at="2021-09-28T10:54:27 IST" name="setup" finished-at="2021-09-28T10:54:39 IST" duration-ms="12086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:mavenseleniumproject.Recorder@27462a88]" started-at="2021-09-28T10:54:39 IST" name="testParameterWithXML" finished-at="2021-09-28T10:54:59 IST" duration-ms="19558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- mavenseleniumproject.Recorder -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
